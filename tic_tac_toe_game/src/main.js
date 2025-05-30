@@ -7,13 +7,6 @@ function createTicTacToeApp() {
    * all necessary handlers and state management for gameplay.
    */
 
-  // Theme colors
-  const COLORS = {
-    primary: '#ffffff',
-    secondary: '#222222',
-    accent: '#4caf50'
-  };
-
   // Inject TicTacToe UI into the #app element
   document.querySelector('#app').innerHTML = `
     <main class="ttt-container">
